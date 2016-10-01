@@ -8,6 +8,7 @@ A estrutura das pasta é feita de maneira que possa ser realizado um trabalho da
 
 ```
 .
+├── node_modules
 ├── dist
     ├── pasta1
     ├── pasta2
@@ -20,9 +21,11 @@ A estrutura das pasta é feita de maneira que possa ser realizado um trabalho da
     └── pastaN
 ```
 
-As sub-pastas que ficarão nas pastas `dist` e `src` são os denominados projetos, por exemplo: *forum*, *blog* e outros.
+- Pasta `dist`: Onde ficará pasta dos arquivos de produção, raramente deve-se mexer no conteúdo desta pasta, pois os arquivo colocados aqui serão gerados automáticamente.
+- Pasta `src`: Onde ficará os arquivos que serão modificados, os arquivos de deenvolvimento e em fase de testes, estes sim pode-se mexer até ser desenvolvido ou solucionado algum tipo de problema.
+- Pasta `node_modules`: Pasta onde ficar modulos e dependenciar que serão gerenciadas pelo gerenciador `npm` e `gulp`, apenas em casos de extrema necessidade pode-se mexer nesta pasta, mas é recomendado que nunca se mexa.
 
-A pasta `dist` é a pasta onde ficarão os arquivos de produção de cada um dos projetos. E consequentemente a pasta `src` é onde ficará os arquivos de desenvolvimento de cada um dos projetos.
+As sub-pastas que ficarão nas pastas `dist` e `src` são os denominados projetos, por exemplo: *forum*, *blog* e outros.
 
 ##Minificação e Compressão
 

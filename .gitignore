@@ -1,0 +1,6 @@
+# Evitar arquivos de gerenciador de pacotes como NPM e BOWER
+node_modules/
+bower_components/
+
+# Evitar arquivos de produção
+src/**/app/

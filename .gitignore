@@ -4,4 +4,3 @@ bower_components/
 
 # Evitar arquivos de produção
 src/**/app/
-dist/**/app/
